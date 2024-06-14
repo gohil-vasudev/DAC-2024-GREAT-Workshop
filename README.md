@@ -5,9 +5,21 @@
 Here we provide resources for the workshop itself, as well as additional resources related to the topics discussed.
 
 ## Commands needed:
+
+### Software to install
 ```bash
 sudo apt-get install iverilog
 sudo apt-get install gtkwave
+```
+### Generate testbench
+```bash
 iverilog -o <output_file.out> <verilog-module.v> <all-the-necessary-intermediate-modules.v> <simon_llm_tb.v>
+```
+### Run testbench
+```bash
 ./output_file.out
+```
+### Watch the waveform
+```bash
 gtkwave waveform_llm.vcd
+```
