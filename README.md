@@ -4,27 +4,6 @@
 ## Title: GREAT: <ins>G</ins>en-AI <ins>R</ins>esearch in <ins>E</ins>lectronic Design, <ins>A</ins>utomation, and <ins>T</ins>est
 Here we provide resources for the workshop itself, as well as additional resources related to the topics discussed.
 
-## For RTL-based design
-### [Google Colab Notebook (WIP)](https://colab.research.google.com/drive/1ZWSJuSAwqvnewstt_tK4OR2_aZQSaxr2?usp=sharing)
+For RTL-based design, go to the [RTL](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/tree/f089b3d8ca78b26e377a544a4f12b5145e8b0765/RTL) folder.
 
-
-### Installing required software
-```bash
-sudo apt-get install iverilog
-sudo apt-get install gtkwave
-```
-### Generate testbench
-```bash
-iverilog -o <output_file.out> <verilog-module.v> <all-the-necessary-intermediate-modules.v> <simon_llm_tb.v>
-```
-### Run testbench
-```bash
-./output_file.out
-```
-### Generate waveform
-```bash
-gtkwave waveform_llm.vcd
-```
-
-
-## For HLS-based design
+For HLS-based design, go to the HLS folder.
