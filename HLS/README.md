@@ -1,6 +1,12 @@
-This folder contains an example showing how to use OpenAI API with Catapult HLS in a loop to go from a generic C implementation to an HLS compatible C implementation.
+# HLS flow
 
+You can implement the task using HLS. 
+We cann give you access to servers running Siemens Catapult HLS for the competition, or you can use any other AISC compatible HLS tool you have access to.
 
-To run the example export your API 
-'export OPENAI_API_KEY='yourkey'" 
-python3 run.py'
+## Connecting to our server
+TODO
+
+## Scripting LLM and Catapult
+*[example.py](URL)* works you through simple OpenAPI calls and running Catapult HLS from python. 
+
+*[C2HLSC.py](URL)* shows an example of a complete script that uses an LLM in the loop using feedback from catapult to go from generic C to synthesizable C. [Paper C2HLSC](https://arxiv.org/pdf/2406.09233)   
