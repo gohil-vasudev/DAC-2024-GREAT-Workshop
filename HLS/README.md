@@ -9,6 +9,7 @@ Request us a username and password and log in at:
 
 Run 
 ```
+chmod +x setup.sh
 ./setup.sh
 setenv PATH /home/$USER/.localpython/bin:PATH
 setenv OPENAI_API_KEY <your key>
