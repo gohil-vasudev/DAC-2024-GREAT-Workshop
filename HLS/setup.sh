@@ -6,3 +6,5 @@ mkdir ~/.localpython
 ./configure --prefix=/home/$USER/.localpython
 make
 make install
+export PATH=/home/$USER/.localpython/bin:$PATH
+pip3.12 install openai
