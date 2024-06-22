@@ -4,7 +4,13 @@ You can implement the task using HLS.
 We cann give you access to servers running Siemens Catapult HLS for the competition, or you can use any other AISC compatible HLS tool you have access to.
 
 ## Connecting to our server
-TODO
+Request us a username and password and log in at:
+*[https://ecs01.poly.edu:3300/auth/ssh/](https://ecs01.poly.edu:3300/auth/ssh/)*
+
+Run 
+```
+./setup.sh
+```
 
 ## Scripting LLM and Catapult
 *[example.py](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/blob/main/HLS/example.py)* works you through simple OpenAPI calls and running Catapult HLS from python. 
