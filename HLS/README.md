@@ -10,7 +10,11 @@ Request us a username and password and log in at:
 Run 
 ```
 ./setup.sh
+setenv PATH /home/$USER/.localpython/bin:PATH
 ```
+The last line needs to be ran every time you open a new terminal
+
+Use python3.12 to run the python examples.
 
 ## Scripting LLM and Catapult
 *[example.py](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/blob/main/HLS/example.py)* works you through simple OpenAPI calls and running Catapult HLS from python. 
