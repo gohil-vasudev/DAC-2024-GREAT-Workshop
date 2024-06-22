@@ -11,8 +11,11 @@ Run
 ```
 ./setup.sh
 setenv PATH /home/$USER/.localpython/bin:PATH
+setenv OPENAI_API_KEY <your key>
 ```
-The last line needs to be ran every time you open a new terminal
+The second line needs to be ran every time you open a new terminal
+
+You will need an OpenAI API Key to run code using Open AI APIs.
 
 Use python3.12 to run the python examples.
 
