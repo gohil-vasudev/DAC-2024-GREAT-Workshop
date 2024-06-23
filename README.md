@@ -24,7 +24,7 @@ For HLS-based design, go to the [HLS](https://github.com/gohil-vasudev/DAC-2024-
 * The organizers reserve the right to amend these rules at any time. Any changes will be reflected here and/or communicated to participants promptly.
 
 ### Submission Process:
-Once you have successfully obtained the generate the code using the LLM, please prepare a zip package containing the following items:
+Once you have successfully generated the code using the LLM, please prepare a zip package containing the following items:
 * Verilog code file(s) for your LLM-generated design
 * A README containing the command to be run to test your design, i.e, "iverilog <output_file.out> <file1.v> <file2.v> ... <simon_llm_tb.v>"
 * A txt file containing working links to all competition-related conversations with the LLM, including any files you uploaded for the LLM to analyze
