@@ -22,3 +22,11 @@ For HLS-based design, go to the [HLS](https://github.com/gohil-vasudev/DAC-2024-
 * The organizers reserve the right to make the final judgment in any dispute or situation not covered by these rules.
 * The organizers' decisions regarding the interpretation of the rules are at their sole discretion and are not subject to appeal.
 * The organizers reserve the right to amend these rules at any time. Any changes will be reflected here and/or communicated to participants promptly.
+
+### Submission Process:
+Once you have successfully obtained the generate the code using the LLM, please prepare a zip package containing the following items:
+* Verilog code file(s) for your LLM-generated design
+* A README containing the command to be run to test your design, i.e, "iverilog <output_file.out> <file1.v> <file2.v> ... <simon_llm_tb.v>"
+* Working links to all competition-related conversations with the LLM
+
+Send an email with your **team name** and your **zipped file** to gohil.vasudev@tamu.edu, and cc lc4976@nyu.edu, matthewdelorenzo@tamu.edu, and ao2269@nyu.edu. Please send only one submission per team.
