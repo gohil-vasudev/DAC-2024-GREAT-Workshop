@@ -12,9 +12,9 @@ For HLS-based design, go to the [HLS](https://github.com/gohil-vasudev/DAC-2024-
 ### Competition Rules:
 * You need to register for DAC (i.e., full conference registration) in order to attend the GREAT workshop and participate in the competition.
 * Only use an LLM to generate the RTL/C/C++.
-* Manually writing/correcting LLM's mistakes will incur a penalty.
-* Participants will be required to submit the LLM conversation links for all submitted codes in order to be eligible for evaluation.
 * Minor manual fixes to LLM-generated codes are allowed, e.g., fixing minor syntax issues such as missing keywords or ";".
+* Major manual corrections/coding will incur a penalty.
+* Participants will be required to submit the LLM conversation links for all submitted codes in order to be eligible for evaluation.
 * Participants will be provided with the top module declaration (containing primary input and output signal names) and a testbench for the top module to verify their final design.
 * Participants are free to have a hierarchical design and to write custom testbenches for submodules, as long as the top module is according to the provided declaration and is compatible with the provided testbench.
 * The submissions will be evaluated by a panel of judges. Overall, the evaluations shall be performed based on functional correctness (using the provided testbench) and PPA metrics.
