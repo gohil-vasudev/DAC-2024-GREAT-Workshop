@@ -29,4 +29,4 @@ Once you have successfully obtained the generate the code using the LLM, please 
 * A README containing the command to be run to test your design, i.e, "iverilog <output_file.out> <file1.v> <file2.v> ... <simon_llm_tb.v>"
 * A txt file containing working links to all competition-related conversations with the LLM, including any files you uploaded for the LLM to analyze
 
-Send an email with your **team name** and your **zipped file** to gohil.vasudev@tamu.edu, and cc lc4976@nyu.edu, matthewdelorenzo@tamu.edu, and ao2269@nyu.edu. Please send only one submission per team.
+Send an email with your **team name** and your **zipped file** to gohil.vasudev@tamu.edu. Please send only one submission per team.
