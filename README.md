@@ -6,7 +6,7 @@ Here we provide resources for the workshop itself, as well as additional resourc
 
 For RTL-based design, go to the [RTL_based_design](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/tree/0b6f74c24524d346ba5f6c7b1e46fdab9949acee/RTL_based_design) folder.
 
-For HLS-based design, go to the HLS folder.
+For HLS-based design, go to the [HLS](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/tree/053a36bd2c4bd867adaae734e1e3281620982b1b/HLS) folder.
 
 
 ### Competition Rules:
