@@ -9,4 +9,3 @@ make install
 export PATH=/home/$USER/.localpython/bin:$PATH
 pip3.12 install openai
 pip3.12 install pyyaml
-echo "setenv PATH ~/.localpython/bin:$PATH" >> ~/.tcshrc
