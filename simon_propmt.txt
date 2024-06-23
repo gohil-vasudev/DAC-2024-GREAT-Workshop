@@ -1,0 +1,14 @@
+I am designing a Simon cipher which goes as follows: It takes plaintext of bit size 64, and performs round function on it. which results in a ciphertext which is then used to perform the next round on the round function. Thus round function takes plaintext of size 64 and a round_key of a size of 32 and outputs 64 bits for the next round. Assume round module is a black box which you do not have to deal with as it is working properly. All you need to know is that it is declared this way: round  r (.x(plaintext),.y(output),.k(key)); In total there are 44 rounds which is at the end outputs the final ciphertext.
+***
+Now lets talk about key generation:
+Assume there is key_expansion black box that takes original 128 bit size key and current round as an input and outputs a round_key of a size 32 for a particular round i. All you need to know is that it is used this way key_expansion  key_ex(.key(key_in), .i(next_counter), .key_i(key_i));
+***
+Knowing this, make the top module. 
+module simon(clk, rst, plaintext, key, ciphertext, en, done);
+    input clk, rst, en;
+    input [63:0] plaintext;
+    input [127:0] key;
+    output reg [63:0] ciphertext;
+    output done;
+    //code goes here
+endmodule
