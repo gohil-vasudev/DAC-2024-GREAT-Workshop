@@ -1,0 +1,13 @@
+// Please generate a Verilog module for the key expansion of the SIMON cipher with a block size of 64 bits and a key size of 128 bits. Use z as the constant for the key expansion algorithm. 
+//The code takes key and outputs a round key for a specified round i. Assume round incrementing is happening in the testbench. Thus, use if statement.
+
+// if i<4
+//    key_i = i-th 32 bit partitioning of the initial key
+// else
+      // tmp ← S−3 (leftmost 32 bits of key)
+      // tmp ← tmp ^ key[63-:32];
+      // tmp ← tmp ⊕ S−1 tmp
+      // key_i ← ~key[31:0] ^ tmp ^ z[i-4] ^ 3
+// end if
+//where key_i is the resultant 32-bit round key for a specific round i.
+//do NOT change localparam. It MUST be [0:61]
