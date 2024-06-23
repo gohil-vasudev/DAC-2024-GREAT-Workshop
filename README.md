@@ -23,3 +23,5 @@ For HLS-based design, go to the [HLS](https://github.com/gohil-vasudev/DAC-2024-
 * The organizers' decisions regarding the interpretation of the rules are at their sole discretion and are not subject to appeal.
 * The organizers reserve the right to amend these rules at any time. Any changes will be reflected here and/or communicated to participants promptly.
 
+### Submission Process:
+Once you have successfully generated the code using the LLM and are ready to submit, you can do so using this Google Form: [link](https://docs.google.com/forms/d/e/1FAIpQLSdTPiDMNgt5xDGODrKnaatXoto5a1p5hY1GH6GHcAaatl-jBw/viewform?usp=sf_link)
