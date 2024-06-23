@@ -15,6 +15,12 @@ You will need an OpenAI API Key to run code using Open AI APIs.
 
 Use python3.12 to run the python examples.
 
+For simulating your RTL on the server:
+```
+vcs <your_rtl> simon_llm_tb.v
+./simv
+```
+
 ## Scripting LLM and Catapult
 *[example.py](https://github.com/gohil-vasudev/DAC-2024-GREAT-Workshop/blob/main/HLS/example.py)* works you through simple OpenAPI calls and running Catapult HLS from python. 
 
