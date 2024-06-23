@@ -1,16 +1,18 @@
 ## For RTL-based design
 ### [Google Colab Notebook (WIP)](https://colab.research.google.com/drive/1ZWSJuSAwqvnewstt_tK4OR2_aZQSaxr2?usp=sharing)
 
-### Top module declaration 
-> module simon(  
->     input clk,  
->     input rst,  
->     input en,  
->     input [63:0] plaintext,  
->     input [127:0] key,  
->     output reg [63:0] ciphertext,  
->     output reg done  
-> );  
+### Top module declaration
+```verilog
+module simon(
+    input clk,
+    input rst,
+    input en,
+    input [63:0] plaintext,
+    input [127:0] key,
+    output reg [63:0] ciphertext,
+    output reg done
+);
+```
 
 ### Installing required software
 ```bash
