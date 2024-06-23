@@ -17,7 +17,7 @@ Use python3.12 to run the python examples.
 
 For simulating your RTL on the server:
 ```
-vcs <your_rtl> simon_llm_tb.v
+vcs -full64 <your_rtl> simon_llm_tb.v
 ./simv
 ```
 
